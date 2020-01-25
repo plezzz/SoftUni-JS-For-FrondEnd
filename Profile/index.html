@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+
+<div class="container text-center text-danger p-5">
+    <h1>Modify me</h1>
+    <hr class="bg-danger" style="height: 2px">
+    <section class="font-weight-bold" id="personal-info">
+        <h2>Personal Info</h2>
+        <div class="row">
+            <div class="col-6">
+                <label>First Name</label>
+                <p class="text-dark">Pesho</p>
+            </div>
+            <div class="col-6">
+                <label>Last Name</label>
+                <p class="text-dark">Peshov</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <label>Phone Number</label>
+                <p class="text-dark">555-333-4545</p>
+            </div>
+            <div class="col-6">
+                <label>UCL</label>
+                <p class="text-dark">9311124003</p>
+            </div>
+        </div>
+    </section>
+    <hr class="bg-danger" style="height: 2px">
+    <section id="team-and-position" class="text-dark">
+        <h2 class="text-danger">Team and Position</h2>
+        <label><input type="radio" name="team" class="m-5" value="support">Support</label>
+        <label><input type="radio" name="team" class="m-5" value="crm">CRM</label>
+        <label><input type="radio" name="team" class="m-5" value="marketing">Marketing</label>
+        <label><input type="radio" name="team" class="m-5" value="development">Development</label>
+        <label><input type="radio" name="team" class="m-5" value="other" checked>Other</label>
+        <hr class="bg-danger w-50" style="height: 2px">
+        <label><input type="radio" name="position" class="m-5"><span>Team Lead</span></label>
+        <label><input type="radio" name="position" class="m-5"><span>Regular Employee</span></label>
+        <label><input type="radio" name="position" class="m-5"><span>Intern</span></label>
+    </section>
+    <hr class="bg-danger" style="height: 2px">
+    <section id="btn">
+<button type="button" class="btn btn-danger mr-5">Submit</button>
+<button type="button" class="btn btn-danger ml-5">Reset</button>
+    </section>
+</div>
+
+</body>
+<script src="js/app.js"></script>
+<script>solve();</script>
+</html>
